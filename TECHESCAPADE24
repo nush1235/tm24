@@ -1,1 +1,31 @@
+#include <iostream>
+#include <cstring>
 
+using namespace std;
+
+
+int main()
+{
+   char uselessThing[] ="\\\\\\\\\\\\\\\\\\\\\\\\\\JJJJJJJJJJJWEUFNHOWSVEWPOEFJSDQSWFOJASEFOPE[....................////////////?????????????????????????????????{[[[[[[[[[[[[[[[[[[[[[[[[[[[][][][][[[[[[[[[[[[[[[[[[[][][]SEEEEEEEEEEEEEEEFHCODFVJDSMKKKKKKFJWVNSDJVPOEWDVMDEIFJPEOJUUUUUUUUUUUUREFEPRKSPDFCMNDKAEIFHJESAFMWQCFJALSKDAJIHFVJSMDFUHEWBISVDOKPOIWJEDSNKVMFLIJDHDSKOVFIG][\[]\[\[\[\[\[[\,./.,./.,./.,EOIFRGHFDJJJJJJJJJJJJJVIOGRPOWO[E0OJEIGKSFOEPWRI";
+   int moreUselessThing[] = {
+       0,
+       66,
+       12,
+       1,
+       995,
+       23,
+       90,
+       404,
+       69,
+       101,
+       22,
+       23};
+
+cout<<uselessThing<<endl;
+int len = strlen(uselessThing);
+
+char clue[]="185 299 256 359 266 288";
+cout<< "\n"<<clue <<endl;
+
+   return 0;
+}
